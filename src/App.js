@@ -1,8 +1,9 @@
-import HiddenSearchBar from "./HiddenSearchBar";
+import Testimonals from "./Testimonals";
+
 function App() {
   return (
   <>
-<HiddenSearchBar/>
+    <Testimonals/>
   </>
   );
 }
