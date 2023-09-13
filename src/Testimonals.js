@@ -37,7 +37,6 @@ const Testimonals = () => {
       <div className='testimonials-author'>
         - {testimonials[currentIndex].author}
       </div>
-    <h1>{currentIndex}</h1>
  <testimonials className="testimonials-nav">
   <button onClick={()=>handlePrev()}>Prev</button>
   <button onClick={()=>handleNext()}>Next</button>
