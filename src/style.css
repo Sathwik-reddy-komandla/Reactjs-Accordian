@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
 
 *{
     margin: 0;
@@ -7,49 +6,40 @@
 }
 
 body{
-    display:flex;
+    background: rgb(36,36,36);
+    color:white;
+    font-family: sans-serif;
+    display: flex;
     justify-content: center;
     align-items: center;
     height:100vh;
-    background:#e8faff;
-}
-
-.testimonials{
-    margin:0 auto;
-    text-align:center;
-    font-family:sans-serif;
-    border-radius: 10px;
-    padding:40px;
-    box-shadow:0 0 10px rgb(0,0,0,0.1);
-}
-
-.testimonials-quote{
-    font-size:22px;
-    font-style:italic;
-    margin-bottom: 10px;
-    color:#666;
-}
-
-.testimonials-author{
-    font-size:18px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    color:#333;
     
 }
 
-.testimonials-nav{
-display:flex;
-justify-content: space-between;
+.accordian-card{
+    margin:20px;
+    padding:20px;
+    background: rgb(73,73,73);
 }
 
-.testimonials-nav button{
-    padding:10px 20px;
-    border:none;
-    background:#82e5ee;
-    font-size:16px;
-    color:#fff;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s;
+.header{
+    display: flex;
+    justify-content: space-between;
+    width:40rem;
+}
+
+.card-title{
+    display:flex;
+    justify-content: space-between;
+    width:50rem;
+}
+
+.icon{
+    cursor:pointer;
+    font-size:20px;
+}
+.card-info{
+    width:30rem;
+    padding:20px 0px;
+    line-height: 1.3;
 }

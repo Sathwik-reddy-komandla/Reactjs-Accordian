@@ -1,9 +1,18 @@
-import Testimonals from "./Testimonals";
-
+import Accordion from "./Accordion";
+import { accodianData } from "./utils/content";
 function App() {
   return (
   <>
-    <Testimonals/>
+   <div className="accordian">
+    {accodianData.map((data,index)=>{
+      return(
+
+      <Accordion key={index} title={data.sectionTitle} content={data.sectionContent}/>
+    
+    )
+  }
+    )}
+   </div>
   </>
   );
 }
